@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: lightblue
+}
+
+h1 {
+    font: 2em Courier, sans-serif;
+    margin: 0px 0px 20px 10px;
+    padding: .3em;}
+
+header {
+    background-color: burlywood;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header div {
+    display: inline-block;
+    vertical-align:middle;
+}
+
+main {    
+    font-family: Verdana, sans-serif;
+    margin-top: 1em;
+    text-align: center;
+}
+
+main #tablaCentros {
+    display: inline-block;
+}
+
+main .fila {
+    margin: .6em 0;
+    display: inline-block;
+}
+
+main table {    
+    border-collapse: collapse;
+    margin: auto;
+}
+
+main table th{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    color: white;
+    padding: .1em .3em
+}
+
+main table td {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
+    padding: .5em .8em
+}
+
+nav {   
+    border-radius: 5px;
+    margin: 0px 20px 20px 20px;
+    padding: .5em;
+    text-align: center;
+}
+
+nav a, button, main a {
+    background-color: darkseagreen;
+    border: none;
+    border-radius: 5px;
+    color: #9d3545;
+    display: inline-block;
+    font: 1em sans-serif;
+    font-weight: bold;
+    margin: 0px 5px;
+    padding: .5em;
+    text-decoration: none;
+}
+
+nav a:hover, button:hover, main a:hover {
+    background-color: darkgreen;
+    border-radius: 5px;   
+    color: antiquewhite;    
+    transition: .3s;
+    
+}
+
+.extra {
+    background-color: rgba(157, 53, 69, 0.16);
+}
+
+.contenedor {
+    border: 4px #9d3545 solid ;
+    border-radius: 10px;    
+    margin: 0px 20px;
+    overflow: auto;
+    padding: 20px;
+}
+
+
+#boton {
+    text-align: center;
+}
